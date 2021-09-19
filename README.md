@@ -1,6 +1,6 @@
 # Обновляем\даунгрейд OpenWRT на шлюзах Xiaomi DGNWG05LM и Aqara ZHWG11LM
 
-Выражаю благодарность [Ivan Belokobylskiy](https://github.com/devbis) и [mr G1K](https://github.com/G1K) за помощь в обновлении и даунгрейде OpenWRT.  который упростят переход с OpenWRT 19.07 на OpenWRT 21.02
+Выражаю благодарность [Ivan Belokobylskiy](https://github.com/devbis) и [mr G1K](https://github.com/G1K) за помощь в обновлении и даунгрейде OpenWRT. 
 
 **Проект Open Lumi Gateway**
 
