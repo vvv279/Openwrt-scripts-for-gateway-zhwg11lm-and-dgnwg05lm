@@ -17,7 +17,9 @@ https://github.com/openlumi
 
 https://github.com/openlumi/openwrt/releases
 
-Для удобства я создал скрипты, которые помогут вам обновить OpenWRT с версии 19.07 до 21.02 или сделать даунгрейд OpenWRT с версии 21.02 до 19.07. Перед запуском скрипта, обязательно сделайте резервную копию шлюза 
+Для удобства я создал скрипты, которые помогут вам обновить OpenWRT с версии 19.07 до 21.02 или сделать даунгрейд OpenWRT с версии 21.02 до 19.07. 
+
+**Внимание! Перед запуском скрипта, обязательно сделайте резервную копию шлюза**
 
 **Шлюз Aqara ZHWG11LM**
 
@@ -33,6 +35,7 @@ wget https://raw.githubusercontent.com/DivanX10/Openwrt-scripts-for-gateway-zhwg
 
 
 **Шлюз Xiaomi DGNWG05LM**
+
 Обновляем OpenWRT с версии 19.07 до 21.02
 ```
 wget https://github.com/DivanX10/Openwrt-scripts-for-gateway-zhwg11lm-and-dgnwg05lm/blob/main/xiaomi_dgnwg05lm_update_openwrt_21.sh -O - | sh
