@@ -1,4 +1,5 @@
-# Openwrt-scripts-for-gateway-zhwg11lm-and-dgnwg05lm
+# Обновляем\даунгрейд OpenWRT на шлюзах Xiaomi DGNWG05LM и Aqara ZHWG11LM
+
 Выражаю благодарность [Ivan Belokobylskiy](https://github.com/devbis) и [mr G1K](https://github.com/G1K) за помощь в обновлении и даунгрейде OpenWRT.  который упростят переход с OpenWRT 19.07 на OpenWRT 21.02
 
 **Проект Open Lumi Gateway**
@@ -26,7 +27,7 @@ https://github.com/openlumi/openwrt/releases
 
 Шлюз Aqara ZHWG11LM
 
-`wget  -O - | sh`
+`https://raw.githubusercontent.com/DivanX10/Openwrt-scripts-for-gateway-zhwg11lm-and-dgnwg05lm/main/aqara_zhwg11lm_update_openwrt_21.sh`
 
 
 
@@ -34,10 +35,11 @@ https://github.com/openlumi/openwrt/releases
 
 **Даунгрейд OpenWRT с версии 21.02 до 19.07**
 
+
 Шлюз Xiaomi DGNWG05LM
 
-`wget  -O - | sh`
+`wget https://raw.githubusercontent.com/DivanX10/Openwrt-scripts-for-gateway-zhwg11lm-and-dgnwg05lm/main/xiaomi_dgnwg05lm_downgrade_openwrt_19.sh -O - | sh`
 
 Шлюз Aqara ZHWG11LM
 
-`wget  -O - | sh`
+`wget https://raw.githubusercontent.com/DivanX10/Openwrt-scripts-for-gateway-zhwg11lm-and-dgnwg05lm/main/aqara_zhwg11lm_downgrade_openwrt_19.sh -O - | sh`
