@@ -19,27 +19,26 @@ https://github.com/openlumi/openwrt/releases
 
 Для удобства я создал скрипты, которые помогут вам обновить OpenWRT с версии 19.07 до 21.02 или сделать даунгрейд OpenWRT с версии 21.02 до 19.07. Перед запуском скрипта, обязательно сделайте резервную копию шлюза 
 
-**Обновляем OpenWRT с версии 19.07 до 21.02**
+**Шлюз Aqara ZHWG11LM**
 
-Шлюз Xiaomi DGNWG05LM
-
-`wget  -O - | sh`
-
-Шлюз Aqara ZHWG11LM
-
-`https://raw.githubusercontent.com/DivanX10/Openwrt-scripts-for-gateway-zhwg11lm-and-dgnwg05lm/main/aqara_zhwg11lm_update_openwrt_21.sh`
-
-
-
+Обновляем OpenWRT с версии 19.07 до 21.02
+```
+wget https://raw.githubusercontent.com/DivanX10/Openwrt-scripts-for-gateway-zhwg11lm-and-dgnwg05lm/main/aqara_zhwg11lm_update_openwrt_21.sh -O - | sh
+```
+Даунгрейд OpenWRT с версии 21.02 до 19.07
+```
+wget https://raw.githubusercontent.com/DivanX10/Openwrt-scripts-for-gateway-zhwg11lm-and-dgnwg05lm/main/aqara_zhwg11lm_downgrade_openwrt_19.sh -O - | sh
+```
 
 
-**Даунгрейд OpenWRT с версии 21.02 до 19.07**
 
+**Шлюз Xiaomi DGNWG05LM**
+Обновляем OpenWRT с версии 19.07 до 21.02
+```
+wget https://github.com/DivanX10/Openwrt-scripts-for-gateway-zhwg11lm-and-dgnwg05lm/blob/main/xiaomi_dgnwg05lm_update_openwrt_21.sh -O - | sh
+```
+Даунгрейд OpenWRT с версии 21.02 до 19.07
+```
+wget https://raw.githubusercontent.com/DivanX10/Openwrt-scripts-for-gateway-zhwg11lm-and-dgnwg05lm/main/xiaomi_dgnwg05lm_downgrade_openwrt_19.sh -O - | sh
+```
 
-Шлюз Xiaomi DGNWG05LM
-
-`wget https://raw.githubusercontent.com/DivanX10/Openwrt-scripts-for-gateway-zhwg11lm-and-dgnwg05lm/main/xiaomi_dgnwg05lm_downgrade_openwrt_19.sh -O - | sh`
-
-Шлюз Aqara ZHWG11LM
-
-`wget https://raw.githubusercontent.com/DivanX10/Openwrt-scripts-for-gateway-zhwg11lm-and-dgnwg05lm/main/aqara_zhwg11lm_downgrade_openwrt_19.sh -O - | sh`
