@@ -1,5 +1,5 @@
-# Downgrade the OpenWRT on the Aqara ZHWG11LM gateway from 21.02 to 19.07
-# Script for downgrade OpenWRT from version 21.02 to 19.07 by @Divan
+#Downgrade the OpenWRT on the Aqara ZHWG11LM gateway from 21.02 to 19.07
+#Script for downgrade OpenWRT from version 21.02 to 19.07 by @Divan
 #!/bin/sh
 cd /tmp
 echo "Starting the OpenWRT downgrade procedure from version 21.02 to 19.07"
@@ -21,3 +21,4 @@ sleep 2
 sysupgrade -n -v openlumi-19.07.7-imx6-lumi-squashfs-sysupgrade.bin&&
 echo "Done sysupgrade"
 exit
+
