@@ -6,7 +6,7 @@ echo "Starting the procedure for updating OpenWRT from version 19.07 to 21.02"
 sleep 2
 wget https://github.com/openlumi/openwrt/releases/download/v21.02.0-20210902/u-boot.imx -O /tmp/u-boot.imx&&
 wget https://github.com/openlumi/openwrt/releases/download/v21.02.0-20210902/openwrt-imx6-imx6ull-aqara-zhwg11lm.dtb -O /tmp/openwrt-imx6-imx6ull-aqara-zhwg11lm.dtb&&
-wget https://github.com/openlumi/openwrt/releases/download/v21.02.0-20210902/openwrt-imx6-aqara_zhwg11lm-squashfs-sysupgrade.bin -O /tmp/openwrt-imx6-aqara_zhwg11lm-squashfs-sysupgrade.bin&&
+wget https://openlumi.github.io/releases/21.02.0--zhwg11lm/targets/imx6/generic/openlumi-21.02.0-imx6-aqara_zhwg11lm-squashfs-sysupgrade.bin -O /tmp/openwrt-imx6-aqara_zhwg11lm-squashfs-sysupgrade.bin&&
 echo "Done. The files are downloaded to the tmp folder"
 sleep 2
 echo "Starting replace model marks to allow upgrade with new files for update OpenWRT 21"
